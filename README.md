@@ -1,0 +1,3 @@
+# MongoDB Aggregation Pipeline Bug
+This repository demonstrates a common error encountered when using MongoDB's aggregation pipeline: incorrect field usage within the $sum operator, leading to inaccurate results and unexpected sorting.
+The `bug.js` file contains the erroneous code, while `bugSolution.js` provides the corrected version.  The problem arises from attempting to sum values from a field that is not of the correct numerical datatype.  This can produce unexpected results.
